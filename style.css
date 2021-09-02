@@ -13,6 +13,7 @@ hr{
  
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 .container{
@@ -88,6 +89,7 @@ body{
 
 
 .hero .hero-heading{
+    text-align: center;
     padding-top: 1rem;
   color:var(--dark-gray);
 }
@@ -112,6 +114,22 @@ body{
     background-color: var(--off-white);
 }
 
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
 
+.footer .link{
+    color: white;
+}
 
+.footer ul{
+    padding-inline-start:0px;
+}
 
+.footer.footer-header{
+    font-weight: bold;
+}
