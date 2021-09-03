@@ -2,7 +2,7 @@
 
 :root{
     --primary-color:
-    #FB923C;
+    #f6b179;
     --dark-gray:#6B7280;
     --off-white:#F3F4F6;
 }
@@ -30,7 +30,7 @@ body{
     box-sizing: border-box;
     text-decoration: none;
     padding:1rem 1rem;
-    margin:auto;
+    margin:1rem 1rem;
 }
 
 .link-primary{
