@@ -29,9 +29,8 @@ body{
 .link{
     box-sizing: border-box;
     text-decoration: none;
-    padding:0.6rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding:1rem 1rem;
+    margin:auto;
 }
 
 .link-primary{
@@ -49,6 +48,11 @@ body{
 
 .list-non-bullet{
     list-style: none;
+}
+
+.list-non-bullet .blog-list{
+    
+    text-align: center;
 }
 
 .list-item-inline{
@@ -120,12 +124,13 @@ body{
 }
 
 .section p{
-    padding:1rem 0.5rem;
+    padding:1rem;
+    
 }
 
 .footer{
     background-color: var(--primary-color);
-    padding:2rem 0rem;
+    padding:2rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
